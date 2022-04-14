@@ -1,0 +1,106 @@
+.page{
+    background-color: #f5f5f5;
+    height: 1104px;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+.card{
+    width: 1024px;
+    height: 900px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    box-shadow: 1px 1px 100px;
+}
+.foto{
+    height: 900px;
+    width: 450px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.forma{
+    padding: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #737373;
+    font-size: 14px;
+}
+h1{
+    font-size: 25px;
+    font-weight: 600;
+    color: #0284c7; 
+    margin-bottom: 40px;
+    
+}
+*{
+    box-sizing: border-box;
+}
+html{
+    ---offset:20px;
+}
+.registration{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 calc(0px - var(---offset)/2);
+}
+.field{
+    width: calc(100%/2 - var(---offset));
+    margin: calc(var(---offset)/2);
+    display: flex;
+    flex-direction: column;
+}
+.delivery{
+    width: calc(100%/3 - var(---offset));
+    margin: calc(var(---offset)/2);
+    display: flex;
+    flex-direction: column;
+}
+.address{
+    width: calc(100%/1 - var(---offset));
+    margin: calc(var(---offset)/2);
+}
+h2{
+    padding-top: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 20px 0;
+    color: #404040;
+    border-top: 1px solid #d4d4d4;
+}
+.cell{
+    appearance: none;
+    width: 100%;
+    height: 40px;
+    border: 1px solid #d4d4d4;
+    border-radius: 5px;
+}
+.cell:checked{
+    outline: 2px solid #0ea5e9;
+}
+#check{
+    margin: 15px 0;
+    color: #404040;
+    font-weight: 600;
+}
+button{
+    height: 35px;
+    width: 100%;
+    background-color: #0ea5e9;
+    color: white;
+    font-size: 14px;
+    border-radius: 10px;
+    border: 0px;
+    margin: 40px 0;
+}
+button:hover{
+    background-color:#0284c7
+}
+button:hover:active{
+    background-color: #0284c7;
+}
+p{
+    font-size: 14px;
+    font-style: italic;
+    margin-bottom: 40px;
+}
